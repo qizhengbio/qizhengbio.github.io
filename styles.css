@@ -240,6 +240,12 @@ h3 {
   gap: clamp(28px, 6vw, 72px);
 }
 
+.section-note {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
 .publication-list {
   display: grid;
   gap: 18px;
@@ -260,7 +266,7 @@ h3 {
 }
 
 .pub-meta {
-  margin-bottom: 0;
+  margin-bottom: 8px;
 }
 
 .pub-meta span {
@@ -271,6 +277,19 @@ h3 {
   color: #7a451f;
   font-size: 0.82rem;
   font-weight: 760;
+}
+
+.pub-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  margin-bottom: 0;
+  font-size: 0.94rem;
+}
+
+.pub-details a {
+  color: var(--accent-strong);
+  font-weight: 690;
 }
 
 .timeline-item {

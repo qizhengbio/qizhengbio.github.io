@@ -1,11 +1,12 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta
       name="description"
       content="Qizheng He, undergraduate researcher at Jilin University working on computational biology, molecular prediction, and AI for life science."
+      data-i18n-attr="content:meta.description"
     >
     <meta name="author" content="Qizheng He">
     <title>Qizheng He | 何奇正</title>
@@ -13,59 +14,63 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="Qizheng He homepage">
+      <a class="brand" href="#top" aria-label="Qizheng He homepage" data-i18n-attr="aria-label:brand.aria">
         <span class="brand-mark">QH</span>
         <span>Qizheng He</span>
       </a>
-      <nav class="nav" aria-label="Primary navigation">
-        <a href="#publications">Publications</a>
-        <a href="#education">Education</a>
-        <a href="#awards">Awards</a>
-        <a href="#experience">Experience</a>
+      <nav class="nav" aria-label="Primary navigation" data-i18n-attr="aria-label:nav.aria">
+        <a href="#publications" data-i18n="nav.publications">Publications</a>
+        <a href="#education" data-i18n="nav.education">Education</a>
+        <a href="#awards" data-i18n="nav.awards">Awards</a>
+        <a href="#experience" data-i18n="nav.experience">Experience</a>
       </nav>
+      <div class="language-switch" aria-label="Language switcher" data-i18n-attr="aria-label:language.aria">
+        <button class="language-button is-active" type="button" data-lang-switch="en" aria-pressed="true">EN</button>
+        <button class="language-button" type="button" data-lang-switch="zh" aria-pressed="false">中文</button>
+      </div>
     </header>
 
     <main id="top">
       <section class="profile-section" aria-labelledby="profile-title">
         <div class="profile-copy">
-          <p class="eyebrow">Jilin University · Life Sciences · Tang Aoqing Honors Program</p>
+          <p class="eyebrow" data-i18n="hero.eyebrow">Jilin University · Life Sciences · Tang Aoqing Honors Program</p>
           <h1 id="profile-title">何奇正 <span>Qizheng He</span></h1>
-          <p class="lead">
+          <p class="lead" data-i18n="hero.lead">
             Undergraduate researcher interested in computational biology, molecular property prediction,
             toxicity modeling, and AI-assisted discovery in the life sciences.
           </p>
-          <div class="contact-row" aria-label="Academic links">
-            <a href="mailto:heqz9923@mails.jlu.edu.cn">Email</a>
+          <div class="contact-row" aria-label="Academic links" data-i18n-attr="aria-label:contact.aria">
+            <a href="mailto:heqz9923@mails.jlu.edu.cn" data-i18n="contact.email">Email</a>
             <a href="https://orcid.org/0009-0009-1002-9556">ORCID</a>
             <a href="https://scholar.google.com/citations?user=l9sH920AAAAJ">Google Scholar</a>
-            <a href="assets/qizheng-he-cv.pdf">CV PDF</a>
+            <a href="assets/qizheng-he-cv.pdf" data-i18n="contact.cv">CV PDF</a>
           </div>
         </div>
         <figure class="portrait-frame">
-          <img src="assets/photo.png" alt="Portrait of Qizheng He">
+          <img src="assets/photo.png" alt="Portrait of Qizheng He" data-i18n-attr="alt:portrait.alt">
         </figure>
       </section>
 
-      <section class="overview-grid" aria-label="Research snapshot">
+      <section class="overview-grid" aria-label="Research snapshot" data-i18n-attr="aria-label:overview.aria">
         <article>
           <span class="metric">6</span>
-          <p>Publications in JPCB, JCIM, IJMS, Computational Biology and Medicine, and related venues.</p>
+          <p data-i18n="overview.publications">Publications in JPCB, JCIM, IJMS, Computational Biology and Medicine, and related venues.</p>
         </article>
         <article>
           <span class="metric">2</span>
-          <p>First-author or co-first-author representative publications.</p>
+          <p data-i18n="overview.firstAuthor">First-author or co-first-author representative publications.</p>
         </article>
         <article>
           <span class="metric">88.44</span>
-          <p>Weighted average score in undergraduate study.</p>
+          <p data-i18n="overview.average">Weighted average score in undergraduate study.</p>
         </article>
       </section>
 
       <section id="publications" class="content-section" aria-labelledby="publications-title">
         <div class="section-heading">
-          <p class="eyebrow">Research Output</p>
-          <h2 id="publications-title">Publications</h2>
-          <p class="section-note">* indicates equal contribution.</p>
+          <p class="eyebrow" data-i18n="publications.eyebrow">Research Output</p>
+          <h2 id="publications-title" data-i18n="publications.title">Publications</h2>
+          <p class="section-note" data-i18n="publications.note">* indicates equal contribution.</p>
         </div>
         <div class="publication-list">
           <article class="publication">
@@ -75,7 +80,7 @@
             </p>
             <p class="pub-meta">
               <strong>He Q</strong>, Yi F, Han W.
-              <span>First author</span>
+              <span data-i18n="publication.badge.first">First author</span>
             </p>
             <p class="pub-details">
               <em>J Phys Chem B.</em> 2026 Apr 23;130(16):4333-4343.
@@ -104,7 +109,7 @@
             </p>
             <p class="pub-meta">
               Cui H*, <strong>He Q*</strong>, Li W, Duan Y, Han W.
-              <span>Co-first author</span>
+              <span data-i18n="publication.badge.cofirst">Co-first author</span>
             </p>
             <p class="pub-details">
               <em>Int J Mol Sci.</em> 2024 Jul 22;25(14):7978.
@@ -162,16 +167,16 @@
 
       <section id="education" class="content-section two-column" aria-labelledby="education-title">
         <div class="section-heading">
-          <p class="eyebrow">Training</p>
-          <h2 id="education-title">Education</h2>
+          <p class="eyebrow" data-i18n="education.eyebrow">Training</p>
+          <h2 id="education-title" data-i18n="education.title">Education</h2>
         </div>
         <div class="section-body">
           <article class="timeline-item">
             <div>
-              <h3>Jilin University</h3>
-              <p>Tang Aoqing Honors Program, Biological Sciences track, B.S.</p>
+              <h3 data-i18n="education.school">Jilin University</h3>
+              <p data-i18n="education.degree">Tang Aoqing Honors Program, Biological Sciences track, B.S.</p>
             </div>
-            <time datetime="2023-09">2023.09 - Present</time>
+            <time datetime="2023-09" data-i18n="date.presentRange">2023.09 - Present</time>
           </article>
           <dl class="detail-list">
             <div>
@@ -179,17 +184,17 @@
               <dd>3.59</dd>
             </div>
             <div>
-              <dt>Weighted Average</dt>
+              <dt data-i18n="education.weightedAverage">Weighted Average</dt>
               <dd>88.44 / 100</dd>
             </div>
             <div>
-              <dt>English</dt>
+              <dt data-i18n="education.english">English</dt>
               <dd>IELTS 6.0 · CET-4 563 · CET-6 461</dd>
             </div>
           </dl>
           <div class="course-block">
-            <h3>Selected Coursework</h3>
-            <p>
+            <h3 data-i18n="education.courseworkTitle">Selected Coursework</h3>
+            <p data-i18n="education.coursework">
               Python Programming 93.6, Innovation and Entrepreneurship Practice in Biology 92,
               Synthetic Biology 91, Chemical Biology 91, Neurobiology 97, Genetics A 91.3,
               Biochemistry Lab 94, Analytical Chemistry Lab 92, Cell Biology Lab 94,
@@ -197,46 +202,47 @@
             </p>
           </div>
           <div class="service-list">
-            <h3>Campus Service</h3>
-            <p>League Branch Secretary, Tang Aoqing Honors Program, 2024 - Present.</p>
-            <p>Member, Committee Office of Jilin University Student Congress, 2025 - Present.</p>
+            <h3 data-i18n="education.serviceTitle">Campus Service</h3>
+            <p data-i18n="education.serviceLeague">League Branch Secretary, Tang Aoqing Honors Program, 2024 - Present.</p>
+            <p data-i18n="education.serviceCongress">Member, Committee Office of Jilin University Student Congress, 2025 - Present.</p>
           </div>
         </div>
       </section>
 
       <section id="awards" class="content-section two-column" aria-labelledby="awards-title">
         <div class="section-heading">
-          <p class="eyebrow">Recognition</p>
-          <h2 id="awards-title">Awards</h2>
+          <p class="eyebrow" data-i18n="awards.eyebrow">Recognition</p>
+          <h2 id="awards-title" data-i18n="awards.title">Awards</h2>
         </div>
         <ul class="event-list">
-          <li><span>Provincial Excellent Conclusion, College Students' Innovation and Entrepreneurship Training Program</span><time>2026</time></li>
-          <li><span>Second Prize, Tang Aoqing Class Research Practice Scholarship, Jilin University</span><time>2025</time></li>
-          <li><span>Third-class Scholarship, Jilin University</span><time>2024</time></li>
-          <li><span>Top Freshman Scholarship, Jilin University</span><time>2023</time></li>
-          <li><span>Bronze Medal, China National Biology Olympiad</span><time>2022</time></li>
-          <li><span>Gold Division, USA Computing Olympiad</span><time>2020</time></li>
+          <li><span data-i18n="awards.innovation">Provincial Excellent Conclusion, College Students' Innovation and Entrepreneurship Training Program</span><time>2026</time></li>
+          <li><span data-i18n="awards.researchScholarship">Second Prize, Tang Aoqing Class Research Practice Scholarship, Jilin University</span><time>2025</time></li>
+          <li><span data-i18n="awards.thirdScholarship">Third-class Scholarship, Jilin University</span><time>2024</time></li>
+          <li><span data-i18n="awards.freshman">Top Freshman Scholarship, Jilin University</span><time>2023</time></li>
+          <li><span data-i18n="awards.cnbo">Bronze Medal, China National Biology Olympiad</span><time>2022</time></li>
+          <li><span data-i18n="awards.usaco">Gold Division, USA Computing Olympiad</span><time>2020</time></li>
         </ul>
       </section>
 
       <section id="experience" class="content-section two-column" aria-labelledby="experience-title">
         <div class="section-heading">
-          <p class="eyebrow">Practice</p>
-          <h2 id="experience-title">Experience</h2>
+          <p class="eyebrow" data-i18n="experience.eyebrow">Practice</p>
+          <h2 id="experience-title" data-i18n="experience.title">Experience</h2>
         </div>
         <ul class="event-list">
-          <li><span>BIOMOD World Final, organizing team, main competition venue lead</span><time>2025.10</time></li>
-          <li><span>Life Sciences Summer School, University of Manchester</span><time>2025.08</time></li>
-          <li><span>Field practice in Changbai Mountain</span><time>2025.07</time></li>
-          <li><span>Yunnan plateau plant survey field practice, Yunnan University</span><time>2024.07</time></li>
-          <li><span>Exchange courses: Neurobiology at Oxford University, Synthetic Biology at Imperial College London</span><time>2024 - 2025</time></li>
+          <li><span data-i18n="experience.biomod">BIOMOD World Final, organizing team, main competition venue lead</span><time>2025.10</time></li>
+          <li><span data-i18n="experience.manchester">Life Sciences Summer School, University of Manchester</span><time>2025.08</time></li>
+          <li><span data-i18n="experience.changbai">Field practice in Changbai Mountain</span><time>2025.07</time></li>
+          <li><span data-i18n="experience.yunnan">Yunnan plateau plant survey field practice, Yunnan University</span><time>2024.07</time></li>
+          <li><span data-i18n="experience.exchange">Exchange courses: Neurobiology at Oxford University, Synthetic Biology at Imperial College London</span><time>2024 - 2025</time></li>
         </ul>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>© 2026 Qizheng He. Built for GitHub Pages.</p>
-      <a href="#top">Back to top</a>
+      <p data-i18n="footer.copyright">© 2026 Qizheng He. Built for GitHub Pages.</p>
+      <a href="#top" data-i18n="footer.backTop">Back to top</a>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

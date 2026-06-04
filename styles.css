@@ -53,6 +53,37 @@ a:hover {
   backdrop-filter: blur(16px);
 }
 
+.language-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid rgba(31, 111, 104, 0.24);
+  background: var(--white);
+}
+
+.language-button {
+  min-width: 48px;
+  min-height: 34px;
+  padding: 6px 10px;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 760;
+}
+
+.language-button:hover {
+  color: var(--accent-strong);
+}
+
+.language-button.is-active {
+  background: var(--accent-strong);
+  color: var(--white);
+}
+
 .brand {
   display: inline-flex;
   align-items: center;
@@ -405,6 +436,10 @@ time {
     width: 100%;
     overflow-x: auto;
     padding-bottom: 2px;
+  }
+
+  .language-switch {
+    align-self: flex-start;
   }
 
   .profile-section {
